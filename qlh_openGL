@@ -1,0 +1,6 @@
+#!/bin/sh
+
+HAXLIBS="$HOME/Desktop/qlh_openGL/qlh_openGL.so"
+
+LD_PRELOAD="$HAXLIBS" firefox "$@"
+
